@@ -1,0 +1,60 @@
+CSS FLEXBOX
+
+-Flex Container-
+display - inicialisador do container
+flex-direction - direcionamento dos itens, seja em linha ou em coluna
+flex-wrap - quebra de linha
+flex-flow - abreviação pra direction e wrap
+justify-content - alinhar os items do container de acordo com sua direção
+align-items - alinha os itens de acordo com o seu eixo no container
+align-content - alinha as linhas do container
+
+-Flex Item-
+flex-grow - definir o fator de crescimento
+flex-basis - difine o tamanho inicial do item antes da distribuição final restante
+flex-shrink - define a capacidade de redução
+flex - abreviação pra grow, basis e shrink
+order - ordem de distribuição e listagem
+align-self - define o alinhamento de um item especifico desse container
+
+-Eixos-
+row - esquerda para a direita
+row-reverse - direita para a esquerda
+column - de cima para baixo em uma coluna
+column-reverse - de baixo para cima em uma coluna
+
+-Wrap-
+nowrap - vem por padrão e sem quebra de linhas
+wrap - permite a quebra de linhas
+wrap-reverse - permite a quebra de linhas e sentido contrario
+
+-Justify Content-
+flex-start - leva todos os itens para o inicio do container
+flex-end - leva todos os itens para o final do container
+center - leva todos os itens para o centro do container
+space-between - cria um espaço igual entre os itens (levando o primeiro para o inicio (esquerda) e o segundo para o final do container (direita)
+space-around - os esp~ços do meio são duas vezes maiores que o inicio e o final.
+
+-Align Items-
+center - tras todos os itens ao centro
+stretch - padrão, crecem igualmente
+flex-start - leva todos os itens para o inicio do container
+flex-end - leva todos os itens para o final do container
+baseline - alinha com o eixo da linha do texto dentro do item
+
+-Align Content-
+center - tras todos os itens ao centro
+stretch - padrão, crecem igualmente
+flex-start - leva todos os itens para o inicio do container
+flex-end - leva todos os itens para o final do container
+space-between - cria um espaço igual entre os itens (levando o primeiro para o inicio (esquerda) e o segundo para o final do container (direita)
+space-around - os esp~ços do meio são duas vezes maiores que o inicio e o final.
+
+-Flex Item-
+flex-grow - define o fator de crescimento, sempre respeitando o espaçamento
+flex-basis - estabelece o tamanho inicial do item antes da distribuição de espaço, baseado no conteudo interno
+flex-shrink - estabelece a capacidade de redução ou compressão de um item (0-não permite a redução dos itens, 1-permite reduzir os tamanhos proporcionalmente)
+flex - atalho ou abreviação para grow, shrink e basis (Nessa ordem)
+order - ordem de distribuição e listagem
+align-self - estabelece alinhamento individual sobre um determinado item(auto(padrão), flex-start(inicio do container), flex-end(Final do container), center(centro de acordo com o eixo)
+stretch(ocupa todo o espaço relativo), baseline(linha base da tipografia))
